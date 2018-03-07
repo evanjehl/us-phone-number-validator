@@ -1,9 +1,4 @@
-==== Validate US Phone Number Function ====
-
-Sources:
-
-1) https://en.wikipedia.org/wiki/North_American_Numbering_Plan
-2) https://www.twilio.com/docs/glossary/what-e164
+# Validate US Phone Number Function
 
 The function validateUSPhoneNumber(userInput), written in Javascript, accepts a user input phone number string type and returns a normalized United States phone number string type in E.164 format. The parameter, ‘userInput,’ is the user’s input string. This parameter is tested against a master regular expression that stipulates the following:
 
